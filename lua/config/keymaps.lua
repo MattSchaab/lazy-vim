@@ -32,6 +32,8 @@ vim.opt.signcolumn = "yes"
 
 vim.opt.updatetime = 50
 
+vim.opt_local.conceallevel = 0
+
 -- HARPOON
 local harpoon = require("harpoon")
 
